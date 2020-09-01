@@ -63,6 +63,12 @@
             ]
         }
     ],
+    "ddp-server": [
+        {
+            "range": "=2.4.0",
+            "alert": "Vulnerable to denial of service (CVE-2020-7693)"
+        }    
+    ],
     "insecure": [
         {
             "range": "*",
